@@ -10,7 +10,7 @@ public class Calculator {
     Scanner input = new Scanner(System.in);
 
    do{
-    System.out.println("Choose an operation to perform: \n 1.ADD \n 2.SUB \n 3.MUL \n 4.DIV \n 5.PER \n 6.EXIT");
+    System.out.println("Choose an operation to perform: \n 1.ADD \n 2.SUB \n 3.MUL \n 4.DIV \n 5.PER \n 6.AVG \n 7.EXIT");
     choice = input.nextInt();
 
     
@@ -52,13 +52,17 @@ public class Calculator {
         break;
       
       case 6:
+      result =(number1+number2)/2;
+      System.out.println("Avgerage of two number is " + result);
+      
+      case 7:
        break; 
 
       default:
         System.out.println("Invalid Choice!");
         break;
     }
-   }while(choice!=5);
+   }while(choice!=7);
     input.close();
   }
 }
