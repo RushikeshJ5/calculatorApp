@@ -10,7 +10,7 @@ public class Calculator {
     Scanner input = new Scanner(System.in);
 
    do{
-    System.out.println("Choose an operation to perform: \n 1.ADD \n 2.SUB \n 3.MUL \n 4.DIV \n 5.PER \n 6.EXIT");
+    System.out.println("Choose an operation to perform: \n 1.ADD \n 2.SUB \n 3.MUL \n 4.DIV \n 5.EXIT");
     choice = input.nextInt();
 
     
@@ -46,12 +46,12 @@ public class Calculator {
         System.out.println(number1 + " / " + number2 + " = " + result);
         break;
 
-      case 5:
-        result = (number1/number2)*100;
-        System.out.println(number1 + " percent of "+ number2 +" = " + result);
-        break;
+    //   case 5:
+    //     result = (number1/number2)*100;
+    //     System.out.println(number1 + " percent of "+ number2 +" = " + result);
+    //     break;
       
-      case 6:
+      case 5:
        break; 
 
       default:
