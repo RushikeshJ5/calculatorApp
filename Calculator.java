@@ -58,7 +58,7 @@ public class Calculator {
       System.out.println("Avgerage of two number is " + result);
       
       case 7:
-      System.out.println("Exit the loop...")
+      System.out.println("Exit the loop...");
        break; 
 
       default:
